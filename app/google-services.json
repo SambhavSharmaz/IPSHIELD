@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "564283891322",
+    "project_id": "ipshield-d1854",
+    "storage_bucket": "ipshield-d1854.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564283891322:android:b62f558c61a8e9398465c3",
+        "android_client_info": {
+          "package_name": "com.example.ipshield"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564283891322-3r8hipnm7ci7skig7eo799iuqk98u8p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ipshield",
+            "certificate_hash": "e6b5293a65df6b47d8844667a6a2948fea6fd052"
+          }
+        },
+        {
+          "client_id": "564283891322-9p392m8rbs0i4duh147a1tgh8b51u3rl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsEMx7dFvMqgOo9G9bkruoYYdFHJNBjG8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564283891322-9p392m8rbs0i4duh147a1tgh8b51u3rl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

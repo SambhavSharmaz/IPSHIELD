@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">IPSHIELD</string>
+    <string name="default_web_client_id">564283891322-9p392m8rbs0i4duh147a1tgh8b51u3rl.apps.googleusercontent.com</string>
+    <string-array name="user_roles">
+        <item>Admin</item>
+        <item>Patent Attorney</item>
+        <item>Researcher</item>
+        <item>Client</item>
+    </string-array>
+    <string name="welcome_text">Welcome to IPSHIELD</string>
+    <string name="track_ip">Track Intellectual Property</string>
+    <string name="track_ip_description">Track intellectual property icon</string>
+    <string name="doc_repo">Secure Documentation</string>
+    <string name="doc_repo_description">Secure documentation icon</string>
+    <string name="application_filing">Application and Filing</string>
+    <string name="application_description">Application and filing icon</string>
+    <string name="ai_prior_art_search">AI Prior Art Search</string>
+    <string name="prior_art_description">AI prior art search icon</string>
+    <string name="licensing_monetization">Licensing and Monetization</string>
+    <string name="licensing_description">Licensing and monetization icon</string>
+    <string name="security_access_control">Security and Access Control</string>
+    <string name="security_description">Security and access control icon</string>
+    <string name="logout">Logout</string>
+    <string name="logout_description">Logout icon</string>
+</resources>
+

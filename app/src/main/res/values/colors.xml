@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="buttonBackgroundColor">#6200EE</color>
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="buttonRippleColor">#BB86FC</color>
+    <color name="backgroundColor">#84FFFF</color>
+    <color name="headerBackground">#80D8FF</color>
+    <color name="buttonBackground">#007bff</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="bottomNavIconColor">#757575</color>
+    <color name="bottomNavTextColor">#757575</color>
+    <color name="lightgray">#D1D1D1</color>
+    <color name="dark_gray">#626262</color>
+    <color name="googleRed">#DB4437</color>
+</resources>

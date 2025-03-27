@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/home" />
+
+    <!-- Documents -->
+    <item
+        android:id="@+id/nav_documents"
+        android:title="Documents"
+        android:icon="@drawable/documents" />
+
+    <!-- Notifications -->
+    <item
+        android:id="@+id/nav_notifications"
+        android:title="Notifications"
+        android:icon="@drawable/notification" />
+
+    <!-- User Profile -->
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/profile" />
+
+    <!-- More (Settings, Help, etc.) -->
+    <item
+        android:id="@+id/nav_more"
+        android:title="More"
+        android:icon="@drawable/more" />
+
+</menu>

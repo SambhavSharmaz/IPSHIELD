@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <!-- Title -->
+    <TextView
+        android:text="Create Licensing Agreement"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- IP Title Input -->
+    <EditText
+        android:id="@+id/ipTitleEditText"
+        android:hint="Enter IP Title"
+        android:layout_width="match_parent"
+        android:textColorHint="@color/bottomNavIconColor"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_edittext"
+        android:padding="14dp"
+        android:textColor="@color/black"
+        android:inputType="textCapWords"/>
+
+    <!-- Licensee Name Input -->
+    <EditText
+        android:id="@+id/licenseeEditText"
+        android:hint="Enter Licensee Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/bottomNavIconColor"
+        android:background="@drawable/rounded_edittext"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"/>
+
+    <!-- Licensing Terms Input -->
+    <EditText
+        android:id="@+id/termsEditText"
+        android:hint="Enter Licensing Terms"
+        android:textColorHint="@color/bottomNavIconColor"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="14dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:gravity="top"
+        android:inputType="textMultiLine"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveLicenseButton"
+        android:text="Save Licensing Agreement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"/>
+
+    <!-- Search & Sort Section -->
+    <TextView
+        android:text="Search and Sort Agreements"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Search Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/rounded_edittext"
+        android:padding="4dp">
+
+        <EditText
+            android:id="@+id/searchEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="Search Agreements"
+            android:textColorHint="@color/bottomNavIconColor"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔍"
+            android:background="@drawable/circle_background"
+            android:textColor="@android:color/white"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <!-- Sort Button -->
+    <Button
+        android:id="@+id/sortButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Sort Agreements"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"/>
+
+    <!-- Licensing Container (Replaces RecyclerView) -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@drawable/rounded_container">
+
+        <LinearLayout
+            android:id="@+id/licenseContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+    </ScrollView>
+
+</LinearLayout>
